@@ -120,25 +120,3 @@ sc.logging.print_header()
 # pip3 freeze | grep scrublet
 # scrublet==0.2.1
 
-
-# ran on 2020-10-30 
-# >>> sc.logging.print_header()
-# scanpy==1.6.0 anndata==0.7.4 umap==0.3.10 numpy==1.19.2 scipy==1.5.2 pandas==1.1.3 scikit-learn==0.23.2 statsmodels==0.12.1 python-igraph==0.7.1 louvain==0.6.1 leidenalg==0.7.0
-# pip3 freeze | grep umap
-# umap-learn==0.3.10
-# pip3 freeze | grep scrublet
-# scrublet==0.2.1
-
-# scrublet_merged.to_csv( "data/scrublet-scores/scrublet_scores_UMAP_v0_4_6.csv", index=False, encoding='utf-8-sig')
-
-# >>> sc.logging.print_header()
-# scanpy==1.6.0 anndata==0.7.4 umap==0.4.6 numpy==1.19.2 scipy==1.5.2 pandas==1.1.3 scikit-learn==0.23.2 statsmodels==0.12.1 python-igraph==0.7.1 louvain==0.6.1 leidenalg==0.7.0
-# NB: neighbourhood calculation uses UMAP!
-# try with both 
-
-# 
-# sudo -H pip3 install --upgrade umap-learn
-# 
-# sudo -H pip3 install 'umap-learn==0.4.6'
-# sudo -H pip3 install 'umap-learn==0.3.10'
-
